@@ -1,5 +1,5 @@
-sa
-a
-a
-a
-a
+Los sockets son un mecanismo que nos permite establecer un enlace entre dos
+programas que se ejecutan independientes el uno del otro (generalmente un programa,
+cliente y un programa servidor) Java por medio de la librería java.net nos provee dos,
+clases: Socket para implementar la conexión desde el lado del cliente y ServerSocket,
+que nos permitirá manipular la conexión desde el lado del servidor.

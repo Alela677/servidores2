@@ -13,7 +13,7 @@ public class MainFileServerApp {
 	final static int PUERTO = 4321;
 	static DataInputStream in;
 	static DataOutputStream out;
-
+	
 	public static void main(String[] args) {
 
 		try {
@@ -35,7 +35,8 @@ public class MainFileServerApp {
 
 				ThreadServidor nuevoHilo = new ThreadServidor(ruta, in, out);
 				nuevoHilo.start();
-
+				
+				
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
